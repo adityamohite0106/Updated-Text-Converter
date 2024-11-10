@@ -1,0 +1,73 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #2e2e2e; /* Dark grey for a modern look */
+    color: #e0e0e0; /* Light grey text color for readability */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 30px;
+    color: #ffd7b5; 
+    text-align: center;
+    padding: 50px;
+}
+
+input, textarea {
+    text-align: left;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#UpperCaseTextbox {
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border: 1px solid #ffd7b5; 
+}
+
+.btn {
+    display: flex;
+    width: 500px;
+    border: none;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn button {
+    border-radius: 10px;
+    padding: 10px 20px; 
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.btn1 {
+    background-color: #38ec50; 
+}
+
+.btn2 {
+    background-color: #e74c3c; 
+}
+
+.btn3 {
+    background-color: #f1c40f; 
+}
